@@ -42,3 +42,4 @@ version(minimal) {
 
     mixin build!(main, ut); //optional(cuke));
 }
+mixin BuildGenMain;
