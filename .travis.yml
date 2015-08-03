@@ -15,6 +15,9 @@ install:
   - dub fetch cerealed --version=0.6.1
 
 script:
+  - echo $PATH
+  - ls $CWD
+  - which ninja
   - ./bootstrap.sh make
   - bin/ut
   - cucumber --tags ~@tup
